@@ -21,6 +21,7 @@
 {
     -fx-background-color: #F0CCE6;
     -fx-background-radius: 10 10 10 10;
+    -fx-alignment: left;
 }
 .receive_text
 {
@@ -49,4 +50,8 @@
 {
     -fx-background-color: #3E444C;
     -fx-background-radius: 10 10 10 10;
+}
+.hbox {
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
 }

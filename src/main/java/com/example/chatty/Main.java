@@ -17,8 +17,6 @@ import java.io.InputStream;
 import java.util.ArrayList;
 
 public class Main extends Application {
-    private double x = 0;
-    private double y = 0;
 
 
     public static void main(String[] args) throws Exception{
