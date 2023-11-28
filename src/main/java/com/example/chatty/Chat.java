@@ -120,7 +120,6 @@ public class Chat implements Initializable {
         tex.setFill(Color.BLACK);
         tex.setFont(new Font("Arial", 20));
 
-
         if(pos == Pos.CENTER_RIGHT) {
             hBox.getChildren().add(flow);
             hBox.getChildren().add(new ImageView(icon1.getImage()));
@@ -143,7 +142,6 @@ public class Chat implements Initializable {
         u.newStage(new Stage(),"vid.fxml", "Video Calling", "src/main/resources/com/example/chatty/media/video.png");
     }
 
-    //api: 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  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
     public void Exit(ActionEvent event) throws Exception {
         Util.Exit(event);
     }
